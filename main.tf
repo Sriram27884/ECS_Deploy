@@ -9,7 +9,7 @@ resource "aws_ecs_cluster" "my_cluster" {
 terraform {
   required_providers {
     aws = {
-      source  = "DXC/aws"
+      source  = "aws"
       version = "2.70.0"
     }
   }
